@@ -2,6 +2,7 @@
 import simplegui
 import random
 
+
 # initialize globals - pos and vel encode vertical info for paddles
 WIDTH = 600
 HEIGHT = 400
@@ -18,6 +19,7 @@ ball_vel = [0, 0]
 score1 = score2 = 0
 paddle1_pos = paddle2_pos = HEIGHT / 2 - HALF_PAD_HEIGHT
 paddle1_vel = paddle2_vel = 0
+
 
 # initialize ball_pos and ball_vel for new bal in middle of table
 # if direction is RIGHT, the ball's velocity is upper right, else upper left
